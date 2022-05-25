@@ -2,7 +2,7 @@
 
 ## Notes from creating this repository
 
-**Started from next-typescript-prettier-eslint**
+**Started from next-typescript-prettier-eslint repository**
 
 **Start dev:**
 
@@ -44,6 +44,12 @@ DATABASE_URL="postgresql://myUsername:myPassword@localhost:5432/next_auth_github
 
 **Add schema.prisma routes (from the repository linked below)**
 
+**Generate Prisma Client with the following command**
+
+```
+npx prisma generate
+```
+
 **Migrate database:**
 
 ```
@@ -54,12 +60,6 @@ npx prisma migrate dev --name init
 
 ```
 npx prisma studio
-```
-
-**Generate Prisma Client with the following command**
-
-```
-npx prisma generate
 ```
 
 **Allows Prisma Client in your code:**
